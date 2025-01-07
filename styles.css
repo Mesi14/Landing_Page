@@ -94,14 +94,21 @@ button {
     padding: 30px 90px;
 }
 
-#quote-author {
+#section-head {
+    text-align: center;
+    font-size: 36px;
     font-style: normal;
-    float:right;
+    margin: 50px 0;
 }
 
 #img-wolfs {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#images {
+    display: flex;
     justify-content: space-between;
 }
 
@@ -110,4 +117,81 @@ button {
     width: 200px;
     border: 2px solid #3882F6;
     border-radius: 10px;
+}
+
+figure {
+    width: 200px;
+    text-align: center;
+}
+
+figcaption {
+    font-size: small;
+    font-style: normal;
+}
+
+#quote {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    height: 500px;
+    justify-content: center;
+}
+
+#quote p {
+    margin: 0 auto;
+    width: 70%;
+}
+
+#quote-author {
+    font-style: normal;
+    text-align: right;
+}
+
+#action {
+    margin: 50px auto;
+    width: 70%;
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#action section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#action p:first-child {
+    color: #F9FAF8;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+#action p:nth-child(2) {
+    color: #F9FAF8;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#btn-call-to-action {
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    width: 150px;
+}
+
+footer {
+    height: 70px;
+    text-align: center;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    align-items: center;
+    background-color: #1F2937;
 }
